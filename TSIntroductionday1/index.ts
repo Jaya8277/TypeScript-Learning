@@ -19,7 +19,7 @@ console.log("Hello Typescript");
 
 const my_name : string = "jaya";
 
-const myAge : number = 20;
+const myAge : number = 19;
 
 // const isMarried : boolean = true;
 const isMarried  = true;
@@ -118,7 +118,6 @@ type Dog = {
 // // Composition
 const myDog : Dog | Animal = {
     food : "pedigree",
-
 };
 
 const myPets: number[] = [1,2,3,4];
