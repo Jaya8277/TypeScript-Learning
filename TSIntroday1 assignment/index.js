@@ -1,3 +1,14 @@
+var arr = [
+    { id: 1, name: 'Ankit', age: 19, salary: 260000 },
+    { id: 2, name: 'Neha', age: 20, salary: 650000 },
+    { id: 3, name: 'Kajal', age: 19, salary: 10000 },
+    { id: 4, name: 'Amit', age: 30, salary: 125000 },
+    { id: 5, name: 'Krishna', age: 22, salary: 190000 },
+    { id: 6, name: 'Anjali', age: 30, salary: 270000 },
+    { id: 7, name: 'Dhruva', age: 40, salary: 100000 },
+    { id: 9, name: 'Rekha', age: 32, salary: 3500000 },
+];
+// console.log(arr);
 var subjects;
 (function (subjects) {
     subjects["chemistry"] = "chemistry";
@@ -16,17 +27,7 @@ var Teacher = [
     { id: 18, name: 'Nrupul', subjet: subjects.physics, number_of_student: 25 },
     { id: 19, name: 'Albert', subjet: subjects.maths, number_of_student: 34 },
 ];
-var arr = [
-    { id: 1, name: 'Ankit', age: 19, salary: 260000 },
-    { id: 2, name: 'Neha', age: 20, salary: 650000 },
-    { id: 3, name: 'Kajal', age: 19, salary: 10000 },
-    { id: 4, name: 'Amit', age: 30, salary: 125000 },
-    { id: 5, name: 'Krishna', age: 22, salary: 190000 },
-    { id: 6, name: 'Anjali', age: 30, salary: 270000 },
-    { id: 7, name: 'Dhruva', age: 40, salary: 100000 },
-    { id: 9, name: 'Rekha', age: 32, salary: 3500000 },
-];
-// console.log(arr);
+// console.log(Teacher);
 var sorts = function (arr, a) {
     for (var i = 1; i < arr.length; i++) {
         var j = i - 1;

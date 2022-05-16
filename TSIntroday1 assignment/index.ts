@@ -1,22 +1,3 @@
-enum subjects {
-  chemistry = 'chemistry',
-  physics = 'physics',
-  maths = 'maths',
-}
-const Teacher: users[] = [
-  { id: 10, name: 'Yogesh', subjet: subjects.maths, number_of_student: 10 },
-  { id: 11, name: 'Aeshwarya', subjet: subjects.chemistry, number_of_student: 14 },
-  { id: 12, name: 'Prabhanjan', subjet: subjects.physics, number_of_student: 12 },
-  { id: 13, name: 'Arjun', subjet: subjects.chemistry, number_of_student: 15 },
-  { id: 14, name: 'ChandraSekhar', subjet: subjects.chemistry, number_of_student: 65 },
-  { id: 15, name: 'Swanand', subjet: subjects.physics, number_of_student: 82 },
-  { id: 16, name: 'Arjun', subjet: subjects.chemistry, number_of_student: 19 },
-  { id: 17, name: 'Akshay', subjet: subjects.maths, number_of_student: 17 },
-  { id: 18, name: 'Nrupul', subjet: subjects.physics, number_of_student: 25 },
-  { id: 19, name: 'Albert', subjet: subjects.maths, number_of_student: 34 },
-];
-// console.log(Teacher);
-
 type users = {
   id: number;
   name: string;
@@ -38,9 +19,24 @@ const arr: users[] = [
 ];
 // console.log(arr);
 
-
-
-
+enum subjects {
+  chemistry = 'chemistry',
+  physics = 'physics',
+  maths = 'maths',
+}
+const Teacher: users[] = [
+  { id: 10, name: 'Yogesh', subjet: subjects.maths, number_of_student: 10 },
+  { id: 11, name: 'Aeshwarya', subjet: subjects.chemistry, number_of_student: 14 },
+  { id: 12, name: 'Prabhanjan', subjet: subjects.physics, number_of_student: 12 },
+  { id: 13, name: 'Arjun', subjet: subjects.chemistry, number_of_student: 15 },
+  { id: 14, name: 'ChandraSekhar', subjet: subjects.chemistry, number_of_student: 65 },
+  { id: 15, name: 'Swanand', subjet: subjects.physics, number_of_student: 82 },
+  { id: 16, name: 'Arjun', subjet: subjects.chemistry, number_of_student: 19 },
+  { id: 17, name: 'Akshay', subjet: subjects.maths, number_of_student: 17 },
+  { id: 18, name: 'Nrupul', subjet: subjects.physics, number_of_student: 25 },
+  { id: 19, name: 'Albert', subjet: subjects.maths, number_of_student: 34 },
+];
+// console.log(Teacher);
 
 const sorts = (arr: users[], a : string): users[] => {
   for (let i = 1; i < arr.length; i++) {
