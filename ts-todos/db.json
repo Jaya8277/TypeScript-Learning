@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "Learn TypeScript",
+      "status": false,
+      "id": 1
+    },
+    {
+      "id": "12a7226c-bca4-4bc1-b342-e4ff7b3a8a63",
+      "title": "Type",
+      "status": false
+    },
+    {
+      "id": "f22f8a1b-4c58-4701-acba-a2a41597c990",
+      "title": "TypeLer",
+      "status": false
+    }
+  ]
+}
