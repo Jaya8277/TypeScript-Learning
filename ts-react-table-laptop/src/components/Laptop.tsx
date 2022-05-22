@@ -99,7 +99,7 @@ export const Laptop=() => {
             </div>
 
                 <div>
-                    <button onClick={handleSort}>Sort</button>
+                    <button id="price"onClick={handleSort}>Sort</button>
                 </div>
 
             <div id="main">
