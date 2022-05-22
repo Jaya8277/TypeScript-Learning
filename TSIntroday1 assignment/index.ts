@@ -55,3 +55,29 @@ sorts(arr, 'id');
 sorts(Teacher, 'id');
 console.log(arr);
 console.log(Teacher);
+
+// const sorts = (arr: users[], a :string ): users[] => {
+  //   for (let i = 1; i < arr.length; i++) {
+  //     let j = i - 1;
+  //     let sort1 = arr[i];
+  //     while (j >= 0 && arr[j].id > sort1.id) {
+  //       arr[j + 1] = arr[j];
+  //       j--;
+  //     }
+  //     arr[j + 1] = sort1;
+  //   }
+  //   return arr;
+  // };
+  // if(arr.length==1){
+  //   return arr;
+  // }
+  // for (let i=0;i<arr.length;i++){
+  //   if(arr[i].id>arr[i+1].id){
+  //     [arr[i].id,arr[i+1].id] = [arr[i+1].id,arr[i].id]; 
+  // }
+  // return arr;
+  // }}
+  // sorts(arr, 'id');
+  // sorts(Teacher, 'id');
+  // console.log(arr);
+  // console.log(Teacher);
