@@ -16,7 +16,7 @@ const isPrime = (n) => {
   return true;
 };
 
-const getNthPrimeNo = (n) => {
+const getNthPrimeNo1 = (n) => {
   console.log(`getting ${n}th prime no`);
 
   let count = 1;
@@ -32,9 +32,9 @@ const getNthPrimeNo = (n) => {
 };
 
 const GetPrime = ({ value, label, next }) => {
-  // const val = getNthPrimeNo(value);
+  // const val = getNthPrimeNo1(value);
   //expensive operation is being memorised
-  const val = useMemo(() => getNthPrimeNo(value), [value]);
+  const val = useMemo(() => getNthPrimeNo1(value), [value]);
 
   return (
     <div>
