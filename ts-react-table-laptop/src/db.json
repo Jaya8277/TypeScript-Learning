@@ -1,0 +1,46 @@
+{
+  "laptop": [
+    {
+      "id": "1",
+      "model": "dell",
+      "year": "4560",
+      "os": "10",
+      "height": "5467",
+      "width": "1200",
+      "price": "500000"
+    },
+    {
+      "id": "2",
+      "model": "hp",
+      "makeyear": "1956",
+      "operatingsystem": "10",
+      "screenheight": "14cm",
+      "screenwidth": "12cm",
+      "price": "200000"
+    },
+    {
+      "id": "3",
+      "model": "lenvo",
+      "makeyear": "1956",
+      "operatingsystem": "10",
+      "screenheight": "1500",
+      "screenwidth": "1500",
+      "price": "500000"
+    },
+    {
+      "id": "IKeV4r8"
+    },
+    {
+      "id": "cJBVimy"
+    },
+    {
+      "model": "lenvo",
+      "id": "m0egq5i"
+    },
+    {
+      "operatingsystem": "11",
+      "screenheight": "14cm",
+      "id": "doYKT6p"
+    }
+  ]
+}

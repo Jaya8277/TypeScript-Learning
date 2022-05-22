@@ -1,0 +1,38 @@
+#main{
+    width:500px;
+    margin:auto;
+    border:2px solid black;
+}
+#head{
+   border:1px solid black ;
+}
+#tabled{
+     border:1px solid black;
+      width:95px;
+ 
+}
+
+#tableh1{
+     border:1px solid black;
+      width:100px;
+}
+#head1{
+    border:1px solid black ;
+ }
+ #form1{
+display:flex;
+ }
+ input{
+     border-radius: 10px;
+     height:40px;
+     width: 300px;
+
+ }
+ #price{
+     color: #fff;
+     background-color: #000;
+ }
+ #price:hover{
+    color: #000;
+    background-color: #fff;
+ }
