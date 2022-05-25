@@ -7,13 +7,13 @@ const useTimer = () => {
   const [msecond, setMsecond] = useState(0);
   const [stop, setStop] = useState(true);
 
-  const onStart = () => {
+  const onStartTimer = () => {
     setStop(false);
   };
-  const onStop = () => {
+  const onStopTimer = () => {
     setStop(true);
   };
-  const onReset = () => {
+  const onResetTimer = () => {
     setHour(0);
     setMinute(0);
     setSecond(0);
@@ -50,7 +50,7 @@ const useTimer = () => {
     };
   });
 
-  return { hour, minute, second, msecond, onReset, onStart, onStop };
+  return { hour, minute, second, msecond, onResetTimer, onStartTimer, onStopTimer };
 };
 
 export { useTimer };
