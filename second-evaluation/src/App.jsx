@@ -22,7 +22,7 @@ function App() {
       height="100px"
       />
 
-<Pagination  total={8}  selected={1}  key={1}   onPageChange={(e)=>{handle(e)} }/>
+<Pagination  total={20}  selected={1}  key={1}   onPageChange={(e)=>{handle(e)} }/>
     </div>
   );
 }
